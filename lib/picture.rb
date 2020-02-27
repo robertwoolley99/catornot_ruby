@@ -4,7 +4,7 @@ require 'httparty'
 class Picture
   attr_reader :url_to_retrieve
   def initialize
-    @@api_key = '5727ceed-e2bd-41e9-b30a-b3534b5fefdd'
+    @@api_key = ENV['CAT_API']
   end
 
   def show_random_pic
