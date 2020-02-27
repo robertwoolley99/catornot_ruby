@@ -17,6 +17,15 @@ post '/vote' do
   url = Picture.new
   vote = Vote.new(vote, url.url_link)
   vote.cast
+  redirect '/vote/cast'
 end
+
+get '/vote/cast' do
+  url = Picture.new
+  url.show_random_pic
+  @source = url.url_link
+  erb :'vote/cast'
+end
+
 
 end
