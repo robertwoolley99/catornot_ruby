@@ -2,7 +2,7 @@ require 'sinatra/base'
 require './lib/picture'
 require './lib/vote'
 
-class KitehManager < Sinatra::Base
+class KittehManager < Sinatra::Base
   get '/' do
     url = Picture.new
     url.show_random_pic
