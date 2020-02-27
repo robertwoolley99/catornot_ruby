@@ -38,25 +38,42 @@
           1,
           1,
           null,
+          1,
+          1,
+          1,
+          null,
           null
         ]
       },
       "/Users/ttrjw/Dropbox/Makers/tech_tests/catornot_ruby/lib/vote.rb": {
         "lines": [
           1,
+          1,
           null,
           1,
           1,
           1,
-          2,
-          2,
-          2,
-          2,
+          3,
+          3,
+          3,
+          3,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
           null,
           null
         ]
       }
     },
-    "timestamp": 1582809549
+    "timestamp": 1582810889
   }
 }

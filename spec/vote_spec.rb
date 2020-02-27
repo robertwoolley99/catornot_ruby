@@ -12,4 +12,8 @@ describe Vote do
     parsed_body = JSON.parse(test_vote.json)
     expect(parsed_body['value']).to eq(1)
   end
+  it 'can pass a vote to CAT API' do
+    test_vote = Vote.new('cat', '4t1')
+    expect(test_vote.cast).to eq('OK')
+  end
 end
