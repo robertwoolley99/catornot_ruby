@@ -12,7 +12,7 @@ require 'capybara/rspec'
 require 'rspec'
 # require_relative './setup_test_database'
 # Tell Capybara to talk to ChitterManager
-Capybara.app = KitehManager
+Capybara.app = KittehManager
 
 # RSpec.configure do |config|
 #   config.before(:each) do
