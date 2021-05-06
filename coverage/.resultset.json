@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/ttrjw/Dropbox/Makers/tech_tests/catornot_ruby/spec/picture_spec.rb": {
+      "/Users/ttrjw/Dropbox (Personal)/Makers/tech_tests/catornot_ruby/spec/picture_spec.rb": {
         "lines": [
           1,
           null,
@@ -22,7 +22,7 @@
           null
         ]
       },
-      "/Users/ttrjw/Dropbox/Makers/tech_tests/catornot_ruby/spec/vote_spec.rb": {
+      "/Users/ttrjw/Dropbox (Personal)/Makers/tech_tests/catornot_ruby/spec/vote_spec.rb": {
         "lines": [
           1,
           1,
@@ -46,6 +46,6 @@
         ]
       }
     },
-    "timestamp": 1582819996
+    "timestamp": 1620292651
   }
 }
